@@ -11,7 +11,7 @@ class SocketService {
       this.disconnect();
     }
 
-    const serverURL = process.env.REACT_APP_SOCKET_URL || 'http://localhost:5000';
+    const serverURL = process.env.REACT_APP_SOCKET_URL || 'https://linkedin-clone-sj2q.onrender.com/';
 
     this.socket = io(serverURL, {
       auth: {
