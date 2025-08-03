@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = "https://linked-in-clone-weld.vercel.app/api" || '/api';
+const API_BASE_URL = "https://linkedin-clone-sj2q.onrender.com/api" || '/api';
 
 // Create axios instance
 const api = axios.create({
